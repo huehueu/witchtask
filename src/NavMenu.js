@@ -2,11 +2,11 @@ const NavMenu = () => {
     return (
         <nav className="navMenu">
             <div className="navLinks"> 
-            < a href = "/"> Home </a>
-            < a href="/"> About </a>
-            < a href="/"> Presskit </a>
-            < a href="/"> FAQ </a>
-            < a href="/"> Contact </a>
+            < a href = "/" className="link"> Home </a>
+                < a href="/" className="link"> About Us</a>
+                < a href="/" className="link"> FAQ </a>
+                < a href="/" className="link"> Contact </a>
+                < a href="/" className="link"> Kickstarter </a>
             </div>
         </nav>
     );

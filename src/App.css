@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  cursor: url(customCursor.png), auto
 }
 
 .App-header {
