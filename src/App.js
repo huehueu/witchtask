@@ -1,26 +1,19 @@
-import NavMenu from './NavMenu';
-import TitleSection from './TitleSection';
-import Socials from './Socials';
-import AboutSection from './AboutSection';
-import FeatureSection from './FeatureSection';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home"
+import AboutUs from "./pages/AboutUs";
+import FAQ from "./pages/FAQ";
 
 function App() {
   return (
-    <div>
-      <NavMenu />
-      <div className="sectionContainer">
-        <TitleSection />
-        <Socials />
-        <AboutSection />
-        <FeatureSection />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="faq" element={<FAQ />} />
 
-  
-        <Socials />
-      </div>
-      
-
-
-    </div>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
