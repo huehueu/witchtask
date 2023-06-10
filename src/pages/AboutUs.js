@@ -10,7 +10,7 @@ const AboutUs = () => {
             </header>
             <div className="bio-container">
                 <div className="bio-element">
-                    <h3>akijae</h3>
+                    <h3>lan</h3>
                     <img src="./images/icon.png"/>
                     <ul>
                         <li>cutie patotie</li>
