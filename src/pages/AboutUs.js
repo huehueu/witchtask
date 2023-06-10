@@ -1,8 +1,9 @@
 import NavMenu from "../NavMenu";
+import Socials from '../Socials';
 
 const AboutUs = () => {
     return (
-        <div>
+        <div className="aboutUsSection">
             <NavMenu />
             <header>
                 <h1>ABOUT US</h1>
@@ -28,6 +29,7 @@ const AboutUs = () => {
                     </ul>
                 </div>
             </div>
+            <Socials/>
         </div> 
      );
 }
