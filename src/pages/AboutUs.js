@@ -6,6 +6,7 @@ const AboutUs = () => {
         <div className="aboutUsSection">
             <NavMenu />
             <header>
+                {/* <p className="header">ABOUT US</p> */}
                 <h1>ABOUT US</h1>
             </header>
             <div className="bio-container">

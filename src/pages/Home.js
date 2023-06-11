@@ -6,7 +6,6 @@ import FeatureSection from '../FeatureSection';
 const Home = () => {
     return (
         <div>
-            <NavMenu />
             <div className="sectionContainer">
                 <TitleSection />
                 <AboutSection />

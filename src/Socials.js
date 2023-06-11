@@ -1,7 +1,6 @@
 const Socials = () => {
     return (
         <div className="socialsSection">
-            <h3> STAY UPDATED WITH US</h3>
             <div className="socials">
                 < a href="/">
                     <div className="social-item">
@@ -28,6 +27,7 @@ const Socials = () => {
                     </div>
                 </a>
             </div>
+            <h3> STAY UPDATED!</h3>
         </div>
        
     );

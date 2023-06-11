@@ -38,6 +38,11 @@ body {
   gap: 50px;
   margin-left: 50px;
   margin-top: 30px;
+
+}
+.navContainer {
+    position: absolute;
+      z-index: 4;
 }
 /*============================*/
 
@@ -51,7 +56,6 @@ h3 {
 }
 
 .link {
-  background-color: #AC8EC3;
   padding: 0px 12px 8px 12px;
   border-radius: 30px;
 }
@@ -81,6 +85,7 @@ h3 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    top: 10%;
     width: 40%;
 }
 .bgl1 {
@@ -89,12 +94,12 @@ h3 {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 .aboutSection {
   background-color: #B9D3B4;
-  height: 1000px;
+  height: 100vh;
   padding-top: 50px;
   position: relative;
 
@@ -108,7 +113,7 @@ h3 {
   bottom: 15%;
 }
 .bookImg {
-  width: 40%;
+  width: 50%;
   position: absolute;
   bottom: -1em;
   left: 10%;
@@ -123,8 +128,9 @@ h3 {
 
 .featureSection {
   background-color: #A57F73;
-  padding-bottom: 100px;
+  padding-bottom: 10vh;
   border-radius: 0px 0px 50px 50px;
+  padding-top: 10vh;
 }
 .featuresColumn{
   display: flex;
@@ -157,8 +163,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 0em;
-  padding: 0.5em;
+  padding: 0em;
   align-items: center;
 }
 
@@ -175,6 +180,7 @@ h3 {
   z-index: 2;
   transform: translateX(2.5em);
 }
+
 .social-item:hover {
   animation: bounce 0.6s cubic-bezier(0.59,-0.67,0.24,0.79) 2;
   /* animation: updown 2s ease infinite; */
@@ -275,3 +281,13 @@ code {
   max-height: 9999px;
   transition: all 0.8s cubic-bezier(1, 0, 1, 0)
 }
+
+/* .header {
+  background-color: white;
+  color: #AC8EC3;
+  width: 15vw;
+  border-radius: 30px;
+  padding: 5px 5px;
+  font-size: 40px;
+  
+} */
