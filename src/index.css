@@ -29,7 +29,7 @@ body {
   background-color: #AC8EC3;
   font-family: 'Darumadrop One', cursive;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .navLinks {
@@ -47,11 +47,11 @@ body {
 /*============================*/
 
 h2 {
-  font-size: 70px;
+  font-size: 60px;
   margin: 0px;
 }
 h3 {
-  font-size: 35px;
+  font-size: 30px;
   margin: 2%;
 }
 
@@ -110,20 +110,20 @@ h3 {
   position: absolute;
   left: 20%;
   text-align: left;
-  bottom: 15%;
+  bottom: 20%;
 }
 .bookImg {
-  width: 50%;
+  width: 40%;
   position: absolute;
   bottom: -1em;
-  left: 10%;
+  left: 20%;
 }
 
 .potionImg {
-  width: 30%;
+  width: 25%;
   position: absolute;
-  bottom: -0.5em;
-  right: 5%;
+  bottom: -0.9em;
+  right: 10%;
 }
 
 .featureSection {
@@ -157,6 +157,7 @@ h3 {
 }
 .socialSection {
   text-align: center;
+
   /* cant get the text to align will come back later to it*/
 }
 .socials {
@@ -165,6 +166,8 @@ h3 {
   justify-content: center;
   padding: 0em;
   align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .icon {
@@ -178,7 +181,7 @@ h3 {
   width: 35%;
   position: relative;
   z-index: 2;
-  transform: translateX(2.5em);
+  transform: translateX(2.75em);
 }
 
 .social-item:hover {
@@ -211,6 +214,7 @@ code {
   align-items: center;
   justify-content: center;
   column-gap: 5%;
+  margin-bottom: 10vh;
 }
 .bio-element{
   background-color: #89A786;
@@ -235,6 +239,7 @@ code {
 
 .faqSection, .contactSection {
   text-align: center;
+  margin-top: 5vh;
 }
 .amButton {
   font-size: 40px;

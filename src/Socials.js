@@ -27,7 +27,6 @@ const Socials = () => {
                     </div>
                 </a>
             </div>
-            <h3> STAY UPDATED!</h3>
         </div>
        
     );

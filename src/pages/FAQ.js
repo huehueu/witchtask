@@ -29,26 +29,29 @@ const FAQ = () => {
         setSelected(i)
     }
     return (
-        <div className="faqSection">
-            <NavMenu/>
-            <h2> FAQ </h2>
-            <div className="qWrapper" >
-                <div className="accordion">
-                    {qa.map((item, i) => (
-                        <div className="qaitem">
-                            <div className="question" onClick ={() => toggle(i)}>
-                                <p>{item.question}</p>
-                                <span className="amButton"> {selected === i ? '-' : '+'} </span>
+        <div>
+            <NavMenu />
+            <div className="faqSection">
+                <h1> FAQ </h1>
+                <div className="qWrapper" >
+                    <div className="accordion">
+                        {qa.map((item, i) => (
+                            <div className="qaitem">
+                                <div className="question" onClick={() => toggle(i)}>
+                                    <p>{item.question}</p>
+                                    <span className="amButton"> {selected === i ? '-' : '+'} </span>
+                                </div>
+                                <div className={selected === i ? 'answer show' : 'answer'}> {item.answer} </div>
                             </div>
-                            <div className={selected === i ? 'answer show': 'answer'}> {item.answer} </div>
-                        </div>
 
-                    ))}
+                        ))}
 
+                    </div>
                 </div>
+                <Socials />
             </div>
-            <Socials/>
-         </div>
+        </div>
+        
         
      );
 }
