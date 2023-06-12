@@ -5,8 +5,10 @@ import AboutUs from "./pages/AboutUs";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 
+
 function App() {
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />

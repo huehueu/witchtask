@@ -3,6 +3,7 @@ import TitleSection from '../TitleSection';
 import Socials from '../Socials';
 import AboutSection from '../AboutSection';
 import FeatureSection from '../FeatureSection';
+
 const Home = () => {
     return (
         <div>

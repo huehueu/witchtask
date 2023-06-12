@@ -1,7 +1,14 @@
 import NavMenu from "../NavMenu";
 import Socials from '../Socials';
+import React, { useEffect } from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutUs = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div className="aboutUsSection">
             <NavMenu />
@@ -9,8 +16,8 @@ const AboutUs = () => {
                 {/* <p className="header">ABOUT US</p> */}
                 <h1>ABOUT US</h1>
             </header>
-            <div className="bio-container">
-                <div className="bio-element">
+            <div className="bio-container"  >
+                <div className="bio-element" data-aos="flip-left">
                     <h3>lan</h3>
                     <img src="./images/icon.png"/>
                     <ul>
@@ -19,7 +26,7 @@ const AboutUs = () => {
                         <li>fruit drinks only</li>
                     </ul>
                 </div>
-                <div className="bio-element">
+                <div className="bio-element" data-aos="flip-right">
                     <h3>huehueu</h3>
                     <img src="./images/icon.png" />
                     <ul>

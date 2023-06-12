@@ -26,7 +26,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #AC8EC3;
+  background-color: #B9D3B4;
   font-family: 'Darumadrop One', cursive;
   color: white;
   font-size: 22px;
@@ -77,16 +77,19 @@ h3 {
   z-index: 0;
   /* width: 100%; */
   /* height: max-content; */
-  height: 32em;
+  height: 100vh;
+}
+.titleDiv {
+  position: absolute;
+  left: -0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15%;
+    
 }
 .title {
-  position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 10%;
-    width: 40%;
+  width: 40%;
 }
 .bgl1 {
   position: absolute;
@@ -97,26 +100,47 @@ h3 {
   width: 100%;
   height: auto;
 }
+.titleSection .socialsSection{
+    position: absolute; 
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .aboutSection {
   background-color: #B9D3B4;
   height: 100vh;
   padding-top: 50px;
   position: relative;
-
 }
 
 .aboutSection p{
   width: 25%;
   position: absolute;
-  left: 20%;
   text-align: left;
-  bottom: 20%;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+.aboutDesc {
+  position: relative;
+  text-align: center;
+  transform: translate(-13%, -2%);
+}
+
+.positImg {
+  width: 40%;
+  /* position: absolute; */
+  left: 20%;
+  /* margin-top: 2px; */
 }
 .bookImg {
   width: 40%;
   position: absolute;
   bottom: -1em;
-  left: 20%;
+  left: 16%;
+  
 }
 
 .potionImg {
@@ -170,18 +194,10 @@ h3 {
   padding-bottom: 5vh;
 }
 
-.icon {
-  width: 50%;
-  position: relative;
-  z-index: 1;
-  transform: translateY(0.5em);
-}
-
 .icon_img {
-  width: 35%;
   position: relative;
   z-index: 2;
-  transform: translateX(2.75em);
+  /* transform: translateX(2.75em); */
 }
 
 .social-item:hover {
