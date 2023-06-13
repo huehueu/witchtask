@@ -1,6 +1,8 @@
 const Socials = () => {
     return (
         <div className="socialsSection">
+
+            <p className="scTxt"> STAY UPDATED!</p>
             <div className="socials">
                 < a href="/">
                     <img className="icon_img" src="images/discord.png" />

@@ -19,7 +19,6 @@ const TitleSection = () => {
                     <div className="titleDiv" data-aos="zoom-in" >
                         <img className="title" src="images/titleimg.png" />
                     </div>
-                    <Socials/>
                    
         </div>
     );

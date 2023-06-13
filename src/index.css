@@ -26,10 +26,15 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #B9D3B4;
+  background-color: #AC8EC3;
   font-family: 'Darumadrop One', cursive;
   color: white;
   font-size: 22px;
+}
+
+.greenBG {
+  background-color: #B9D3B4;
+    min-height: 100vh;
 }
 
 .navLinks {
@@ -179,9 +184,12 @@ h3 {
 .featureText{
   text-align: left;
 }
+.scTxt {
+  margin-bottom: 4px;
+}
+
 .socialSection {
   text-align: center;
-
   /* cant get the text to align will come back later to it*/
 }
 .socials {
@@ -190,8 +198,9 @@ h3 {
   justify-content: center;
   padding: 0em;
   align-items: center;
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
   padding-bottom: 5vh;
+  gap: 1vw;
 }
 
 .icon_img {
@@ -200,8 +209,8 @@ h3 {
   /* transform: translateX(2.75em); */
 }
 
-.social-item:hover {
-  animation: bounce 0.6s cubic-bezier(0.59,-0.67,0.24,0.79) 2;
+.icon_img:hover {
+  animation: bounce 0.8s cubic-bezier(0.59,-0.67,0.24,0.79) 2;
   /* animation: updown 2s ease infinite; */
   animation-direction: alternate;
 }
@@ -211,7 +220,7 @@ h3 {
   }
 
   100% {
-    transform: translateY(-50px);
+    transform: translateY(20px);
   }
 }
 code {

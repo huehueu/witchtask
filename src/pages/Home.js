@@ -6,9 +6,11 @@ import FeatureSection from '../FeatureSection';
 
 const Home = () => {
     return (
-        <div>
+        
+        <div className="greenBG">
             <div className="sectionContainer">
                 <TitleSection />
+                <Socials />
                 <AboutSection />
                 <FeatureSection />
 
