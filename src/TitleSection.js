@@ -12,9 +12,9 @@ const TitleSection = () => {
     }, [])
     return (
         <div className="titleSection">
-            <div className="navContainer">
-                <NavMenu />
-            </div>
+            {/* <div className="navContainer"> */}
+                {/* <NavMenu /> */}
+            {/* </div> */}
                     <img className="bgl1" src="images/witchtest.png" />
                     <div className="titleDiv" data-aos="zoom-in" >
                         <img className="title" src="images/titleimg.png" />

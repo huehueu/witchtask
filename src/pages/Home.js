@@ -8,6 +8,8 @@ const Home = () => {
     return (
         
         <div className="greenBG">
+            {/* <button onClick={ToggleNav} className='navButton'><img src="./images/discord.png" /></button> */}
+            <NavMenu/>
             <div className="sectionContainer">
                 <TitleSection />
                 <Socials />
