@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/witchtask/static/css/main.14bc614a.css",
+    "main.js": "/witchtask/static/js/main.87034ed1.js",
+    "static/media/larwitch.png": "/witchtask/static/media/larwitch.cc5ea2a3fb4f1f37c6a5.png",
+    "static/media/medwitch.png": "/witchtask/static/media/medwitch.a4fb8cd948a78c8037e4.png",
+    "static/media/smallwitch.png": "/witchtask/static/media/smallwitch.fae2d8d5aa8d759cb0ae.png",
+    "index.html": "/witchtask/index.html",
+    "main.14bc614a.css.map": "/witchtask/static/css/main.14bc614a.css.map",
+    "main.87034ed1.js.map": "/witchtask/static/js/main.87034ed1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14bc614a.css",
+    "static/js/main.87034ed1.js"
+  ]
+}
