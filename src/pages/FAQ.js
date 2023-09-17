@@ -4,19 +4,11 @@ import Socials from '../Socials';
 
 const qa = [
     { question: 'Release Date?',
-        answer: 'Our target release date is sometime in October 2023!'
+        answer: 'Our target release date is sometime in 2024!'
     },
     {
         question: 'Platforms?',
         answer: 'We intend to release for IOS and Android.'
-    },
-    {
-        question: 'q1',
-        answer: 'wdskdedwqas'
-    },
-    {
-        question: 'q1',
-        answer: 'wdskdedwqas'
     },
 ]
 

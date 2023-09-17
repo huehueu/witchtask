@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contactSection">
             <NavMenu/>
             <header> <h1> CONTACT </h1> </header>
-            <p> For any inqueries please email us a: xxx@gmail.com</p>
+            <p> For any inqueries please email us a: huehueu.studios@gmail.com</p>
             <Socials/>
         </div>
      );

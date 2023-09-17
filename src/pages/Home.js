@@ -9,7 +9,7 @@ const Home = () => {
         
         <div className="greenBG">
             {/* <button onClick={ToggleNav} className='navButton'><img src="./images/discord.png" /></button> */}
-            <NavMenu/>
+            {/* <NavMenu /> */}
             <div className="sectionContainer">
                 <TitleSection />
                 <Socials />

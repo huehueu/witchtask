@@ -6,7 +6,7 @@ const NavMenu = () => {
                 < a href="/aboutus" className="link"> About Us</a>
                 < a href="/faq" className="link"> FAQ </a>
                 < a href="/contact" className="link"> Contact </a>
-                < a href="https://www.youtube.com/watch?v=A3U51KyZLxE&t=38s&ab_channel=GenshinImpact" target=" _blank" className="link"> Kickstarter </a>
+                < a href="https://www.youtube.com/watch?v=DDXr5ihO84U&ab_channel=huehueu" target=" _blank" className="link"> Dev Updates </a>
             </div>
         </nav>
     );

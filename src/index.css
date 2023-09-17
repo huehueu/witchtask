@@ -46,22 +46,15 @@ a {
 
   .navLinks {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    /* margin-left: 50px;
-    margin-top: 30px; */
-      flex-flow: column;
-      align-items: center;
-      position: absolute;
-      right: 0;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      height: 100vh;
+      justify-content: left;
+      gap: 50px;
+      margin-left: 50px;
+      margin-top: 30px;
+      flex-flow: row;
      
   }
 
-  .navMenu {
+  /* .navMenu {
     position: fixed;
     z-index: 4;
     background-color: #53301B;
@@ -78,7 +71,7 @@ a {
     top: 0;
     left: 0;
     z-index: 5;
-  }
+  } */
 
   h2 {
     font-size: 35px;
@@ -157,23 +150,23 @@ a {
   }
 
   .aboutSection p {
-    width: 60%;
+    width: 40%;
     position: absolute;
     text-align: left;
     z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-40%, -55%);
   }
 
   .aboutDesc {
     position: relative;
     text-align: center;
-    transform: translate(-13%, -2%);
+    transform: translate(-%, -2%);
   }
 
   .positImg {
-    width: 80%;
+    width: 50%;
     /* position: absolute; */
     left: 30%;
     margin-left: 10vw;
@@ -189,7 +182,7 @@ a {
   }
 
   .potionImg {
-    width: 50%;
+    width: 30%;
     position: absolute;
     bottom: -0.9em;
     right: 0%;
@@ -291,7 +284,7 @@ a {
   }
 
   .bio-element {
-    background-color: #89A786;
+    background-color: #acbbcf;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -369,6 +362,12 @@ a {
     max-height: 9999px;
     transition: all 0.8s cubic-bezier(1, 0, 1, 0)
   }
+  .por {
+    width: 50%;
+  }
+  .por1 {
+    width: 60%;
+  }
 }
 
 
@@ -421,7 +420,7 @@ a {
     gap: 50px;
     margin-left: 50px;
     margin-top: 30px;
-
+  flex-flow: row;
   }
 
   .navContainer {
@@ -639,7 +638,7 @@ a {
   }
 
   .bio-element {
-    background-color: #89A786;
+    background-color: #acbbcf;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -647,6 +646,8 @@ a {
     width: 30%;
     flex-wrap: wrap;
     min-height: 16em;
+    padding-bottom: 1em;
+
   }
 
   .bio-element:nth-child(1) {
@@ -767,6 +768,7 @@ a {
     gap: 50px;
     margin-left: 50px;
     margin-top: 30px;
+    flex-flow: row;
 
   }
 
@@ -811,7 +813,7 @@ a {
     z-index: 0;
     /* width: 100%; */
     /* height: max-content; */
-    height: 100vh;
+    height: 90vh;
   }
 
   .titleDiv {
@@ -849,7 +851,7 @@ a {
   .aboutSection {
     background-color: #B9D3B4;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 10px;
     position: relative;
   }
 
@@ -987,7 +989,7 @@ a {
   }
 
   .bio-element {
-    background-color: #89A786;
+    background-color: #acbbcf;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -1069,5 +1071,5 @@ a {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {
-}
+/* @media (min-width: 1200px) {
+} */

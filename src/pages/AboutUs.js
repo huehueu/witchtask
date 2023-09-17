@@ -13,29 +13,29 @@ const AboutUs = () => {
         <div className="aboutUsSection">
             <NavMenu />
             <header>
-                {/* <p className="header">ABOUT US</p> */}
                 <h1>ABOUT US</h1>
             </header>
             <div className="bio-container"  >
-                <div className="bio-element" data-aos="flip-left">
-                    <h3>lan</h3>
-                    <img src="./images/icon.png"/>
+                <div className="bio-element" data-aos="flip-right">
+                    <h3>Basil</h3>
+                    <img class="por"src="./images/basil.png" />
                     <ul>
-                        <li>cutie patotie</li>
-                        <li>moon taeil lover</li>
+                       
+                        <li>tomato connoisseur</li>
+                        <li>sleep lover</li>
                         <li>fruit drinks only</li>
                     </ul>
                 </div>
-                <div className="bio-element" data-aos="flip-right">
-                    <h3>huehueu</h3>
-                    <img src="./images/icon.png" />
+                <div className="bio-element" data-aos="flip-left">
+                    <h3>Lan</h3>
+                    <img class="por1" src="./images/lan.png"/>
                     <ul>
-                        <li>ricky enthusiast</li>
+                        <li> hyperpop enthusiast</li>
                         <li>cooking mama</li>
-                        <li>gossip enjoyer</li>
-                        <li>pilates is good for u</li>
+                        <li>pilates enjoyer</li>
                     </ul>
                 </div>
+               
             </div>
             <Socials/>
         </div> 

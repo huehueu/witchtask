@@ -40,7 +40,7 @@ const FeatureSection = () => {
                     <div className="featureText" data-aos="fade-right">
                         <h3>3. Encounter New Friends Along The Way!</h3>
                         <ul>
-                            <li>talk to customers and learn about what goes on in [village name]</li>
+                            <li>talk to customers and learn about what goes on in the village</li>
                         </ul>
                     </div>
                     <img src="images/photoframe.png" alt=""/>
